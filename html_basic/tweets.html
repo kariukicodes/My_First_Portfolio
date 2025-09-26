@@ -2,23 +2,32 @@
 <html lang="en">
 <head>
   <meta charset="utf-8">
-  <title>Base Index</title>
+  <title>My Tweets</title>
 </head>
 <body>
-  <h1>My Tweets</h1>
-
-  <!-- Embedded Tweet -->
-  <blockquote class="twitter-tweet">
-    <p lang="en" dir="ltr">Hello world, this is a sample embedded Tweet!</p>
-    &mdash; Twitter Dev (@TwitterDev) 
-    <a href="https://twitter.com/TwitterDev/status/560070183650213889">January 27, 2015</a>
-  </blockquote>
-  <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-
-  <!-- Link back to homepage -->
-  <p><a href="index.html">Back to Home</a></p>
-</body>
-
-  <p>Hello, World!</p>
+  <header>
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="tweets.html">Tweets</a></li>
+    </ul>
+  </header>
+  <main>
+    <article>
+      <h1>My Tweets</h1>
+      <!-- Embedded Tweet (example) -->
+      <blockquote class="twitter-tweet">
+        <p lang="en" dir="ltr">Hello world, this is a sample embedded Tweet!</p>
+        &mdash; Twitter Dev (@TwitterDev) 
+        <a href="https://twitter.com/TwitterDev/status/560070183650213889">January 27, 2015</a>
+      </blockquote>
+      <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+    </article>
+    <aside>
+      <p>placeholder to add comment thread later</p>
+    </aside>
+  </main>
+  <footer>
+    <p>Made by Kiki - <a href="https://github.com/kariukicodes" target="_blank">here</a></p>
+  </footer>
 </body>
 </html>
